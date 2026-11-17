@@ -1,68 +1,69 @@
-# John Deivid Sanchez Hoyos
+# JOHN DEIVID SANCHEZ HOYOS
 
-Anserma, Caldas, Colombia · johndeivid202@gmail.com · [LinkedIn](https://www.linkedin.com/in/john-deivid-sanchez-hoyos-20a800404) · [GitHub](https://github.com/JohnDeivid12)
+**Estudiante de Ingeniería Informática | Desarrollo de software**
+
+Colombia · johndeivid202@gmail.com
+LinkedIn: linkedin.com/in/john-deivid-sanchez-hoyos-20a800404
 
 ## Perfil
 
-Estudiante de Ingeniería Informática de la Universidad de Caldas, en 8.º semestre. Busco mi primer empleo o una práctica profesional donde aportar con las tecnologías que he trabajado, con interés especial en desarrollo web, análisis de datos y ciberseguridad. Estoy abierto a oportunidades afines a mi perfil técnico y disponible para realizar mi práctica profesional en el segundo semestre de 2027. He desarrollado aplicaciones full stack con Spring Boot, Angular, React, FastAPI y Android, bases de datos en MySQL, PostgreSQL y Supabase, y análisis con Pandas.
+Estudiante de octavo semestre de Ingeniería Informática en la Universidad de Caldas, con formación previa como Tecnólogo en Electrónica. Experiencia práctica en proyectos académicos y colaborativos de desarrollo de aplicaciones web y móviles, APIs REST y análisis de datos. He trabajado con Java, Spring Boot, Angular, Python, FastAPI, JavaScript, TypeScript y bases de datos relacionales. Busco mi primera oportunidad laboral para contribuir al desarrollo de soluciones tecnológicas, fortalecer mis habilidades y aprender en equipos de trabajo.
 
 ## Educación
 
-**Ingeniería Informática** — Universidad de Caldas, Colombia
-8.º semestre (2026-2), en curso · Grado estimado: segundo semestre de 2027 (10.º semestre, de prácticas)
+- **Ingeniería Informática:** Universidad de Caldas, Colombia · Octavo semestre en curso (2026-2). Grado estimado: segundo semestre de 2027.
+- **Tecnología en Electrónica Industrial:** Tecnólogo en Electronica Industrial de la Universidad de Caldas, Colombia desde 2023.
 
 ## Proyectos
 
-### [Core-Inventory](https://github.com/JohnDeivid12/Core-Inventory) · Fork de un sistema de inventario
-`React` `Vite` `Node.js` `Express` `Sequelize` `PostgreSQL` `Supabase` `Looker Studio` `Vercel` `Render`
+### Core-Inventory | Proyecto derivado (fork) de manthansingh26/Core-Inventory
 
-- Audité el modelo de datos (8 tablas normalizadas con claves y reglas `ON DELETE`/`ON UPDATE`) y corregí un `schema.sql` desactualizado.
-- Migré la base de datos a Supabase (PostgreSQL) con índices, RLS activado, SSL y carga inicial de datos con `seed.sql`.
-- Conecté un informe de Looker Studio mediante un usuario de solo lectura (4 KPIs, 2 gráficos, 2 filtros) y lo integré en la página principal con un `iframe` responsivo.
-- Desplegué la aplicación en Vercel y Render.
+*Tecnologías:* React, Vite, Node.js, Express, Sequelize, PostgreSQL, Supabase, Looker Studio, Vercel y Render
 
-### [MargenApp](https://github.com/JohnDeivid12/margenapp) · Panel de control con IA (trabajo en equipo)
-`FastAPI` `Python` `scikit-learn` `pandas` `PostgreSQL` `Angular` `Bootstrap`
+- Migré la base de datos a Supabase (PostgreSQL), configurando Row Level Security (RLS), índices y datos de prueba: 30 productos y 50 movimientos.
+- Revisé el modelo de 8 tablas normalizadas, sus claves y reglas ON DELETE / ON UPDATE, y actualicé un archivo schema.sql desactualizado.
+- Construí un tablero en Looker Studio con 4 indicadores clave, gráficos y filtros; integré el informe mediante un iframe responsivo y participé en el despliegue en Vercel y Render.
 
-- MVP que analiza márgenes de ganancia y alertas de riesgo con árboles de decisión.
-- Refactoricé el backend de un `main.py` monolítico de 442 líneas a módulos separados (configuración, esquemas, base de datos, servicio de IA, lógica de negocio y rutas).
-- Desarrollé endpoints de registro y consulta de ventas y su componente en Angular. Trabajo coordinado con GitFlow.
+### MargenApp | Proyecto colaborativo con GitFlow
 
-### [MiCacharro](https://github.com/JohnDeivid12/alquiler_vehiculos_web) · Sistema de alquiler de vehículos (trabajo en equipo)
-`Java 17` `Spring Boot` `JPA/Hibernate` `MySQL` `Angular` `Bootstrap` `API REST`
+*Tecnologías:* FastAPI, Python, scikit-learn, pandas, PostgreSQL, Angular y Bootstrap
 
-- API REST en capas (modelo, repositorio, servicio, controlador) con 5 entidades.
-- Alquiler con cálculo automático del valor (valor diario × días) y cancelación de reservas pendientes.
-- Panel de administración con registro de devoluciones, recargo por retraso y bitácora de gestiones.
+- Refactoricé un backend monolítico de 442 líneas en módulos independientes para configuración, esquemas, base de datos, servicios y rutas, mejorando la separación de responsabilidades.
+- Desarrollé endpoints para registrar y consultar ventas, junto con el componente de registro de ventas en Angular.
+- Colaboré en el desarrollo de un panel de márgenes y alertas de riesgo que utiliza árboles de decisión.
 
-### [Emergencias Médicas](https://github.com/JohnDeivid12/App-M-vil-Emergencias-M-dicas-) · App Android (Desarrollo Móvil)
-`Java` `Android` `SQLite` `osmdroid` `OkHttp` `Overpass API`
+### MiCacharro | Sistema web de alquiler de vehículos · Proyecto en equipo
 
-- Directorio local de hospitales, clínicas y farmacias con registro, búsqueda, filtro por tipo y edición.
-- Localización del centro de salud más cercano con GPS y mapa de OpenStreetMap, con la distancia en metros.
-- Guías de primeros auxilios descargadas desde un JSON remoto propio.
+*Tecnologías:* Java 17, Spring Boot 3.5, Spring Data JPA, Hibernate, MySQL, Angular 17, Bootstrap 5 y API REST
 
-## Tecnologías con las que he trabajado
+- Participé en el desarrollo de una aplicación web para registro e inicio de sesión, búsqueda de vehículos por tipo y gestión de alquileres con cálculo del valor según tarifa diaria y duración.
+- Implementé funcionalidades de administración para entregas pendientes, devoluciones con recargos por retraso y bitácora de gestiones.
+- Trabajé con un modelo de 5 entidades y arquitectura en capas: modelo, repositorio, servicio y controlador.
 
-- **Lenguajes:** Java, TypeScript, JavaScript, Python, SQL, HTML, CSS
-- **Backend:** Spring Boot, Spring Data JPA, Hibernate, Node.js, Express, Sequelize, FastAPI
-- **Frontend:** Angular, React, Vite, Bootstrap
-- **Bases de datos:** MySQL, PostgreSQL, Supabase, SQLite
-- **Datos e IA:** Pandas, scikit-learn, Jupyter, Looker Studio
-- **Móvil:** Android (Java), osmdroid, OkHttp, Volley
-- **Herramientas y despliegue:** Git, GitHub, GitFlow, Maven, Gradle, API REST, Vercel, Render
-- **Seguridad aplicada:** SSL, Row Level Security (RLS) y usuario de solo lectura en Core-Inventory
+### Emergencias Médicas | Aplicación Android · Proyecto académico
 
-## Certificaciones
+*Tecnologías:* Java, Android, SQLite, osmdroid, Google Play Services Location, OkHttp, Volley y Overpass API
 
-**Enterprise Full Stack with Spring Boot 4 and Angular 21** — Dev Senior Code, abril de 2026
-ID de la credencial: 01KPGGWXPRDNCN9RCQ9ZK6AJ6R
+- Desarrollé un directorio local de centros de salud con registro, búsqueda, filtros por tipo y validación de nombres duplicados.
+- Implementé geolocalización del centro de salud más cercano mediante GPS y mapa OpenStreetMap, mostrando distancias en metros para el municipio de Anserma.
+- Integré guías de primeros auxilios desde un archivo JSON remoto y accesos a contactos de emergencia mediante el marcador telefónico.
 
-## Otros proyectos
+## Habilidades técnicas
 
-- [Análisis de producción de café en fincas caldenses](https://github.com/JohnDeivid12/Analisis-Dataset-Produccion-de-Cafe-Fincas-Caldenses): limpieza, imputación de nulos y agrupaciones con Pandas en Jupyter.
-- [Calculadora de IMC](https://github.com/JohnDeivid12/Aplicacion-Movil-Calculadora-de-Indice-de-Masa-Corporal): app Android en Java que calcula y clasifica el índice de masa corporal.
+- **Lenguajes:** Java, TypeScript, JavaScript, Python, SQL, HTML y CSS.
+- **Backend:** Spring Boot, Spring Data JPA, Hibernate, Node.js, Express, Sequelize y FastAPI.
+- **Frontend:** Angular, React, Vite y Bootstrap.
+- **Bases de datos:** MySQL, PostgreSQL, Supabase y SQLite.
+- **Datos e IA:** Pandas, scikit-learn, Jupyter y Looker Studio.
+- **Desarrollo móvil:** Android con Java, osmdroid, OkHttp y Volley.
+- **Herramientas y despliegue:** Git, GitHub, GitFlow, Maven, Gradle, API REST, Vercel, Render, Android Studio, Eclipse y Visual Studio Code.
+- **Productividad:** Microsoft Office y uso básico de herramientas de inteligencia artificial como apoyo al aprendizaje y la productividad.
+
+## Certificaciones y otros proyectos
+
+- **Certificación:** Enterprise Full Stack with Spring Boot 4 and Angular 21 · Dev Senior Code · Abril de 2026 · Credencial: 01KPGGWXPRDNCN9RCQ9ZK6AJ6R.
+- **Otros proyectos:** Análisis de producción de café en fincas caldenses: limpieza, imputación de valores nulos, creación de columnas y agrupaciones con Pandas (Python y Jupyter).
+- **Otros proyectos:** Calculadora de IMC: aplicación Android en Java con cálculo, clasificación por rangos y recomendaciones.
 
 ---
-
-Mi trabajo está en GitHub (JohnDeivid12). Certificado en Enterprise Full Stack con Spring Boot 4 y Angular 21 (Dev Senior Code, 2026).
+*Antes de enviar: confirmar nivel de inglés, institución/año de Tecnología en Electrónica y fechas de proyectos. Adaptar el perfil y palabras clave a cada vacante.*
